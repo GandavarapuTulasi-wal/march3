@@ -17,7 +17,7 @@ function TodoForm() {
                 </select>
                 <div className="card">
              <button onClick={()=>{dispatch({type: "add",item:item,status:status});}}>Add</button>
-             <button onClick={()=>{dispatch({type: "clear"})}}>remove All</button>
+             <button onClick={()=>{dispatch({type: "clear"})}}>Remove All</button>
              </div>
              </div>
 
